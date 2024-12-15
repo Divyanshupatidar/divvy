@@ -1,0 +1,24 @@
+<!DOCTYPE html> 
+<html> 
+<body> 
+
+<audio id="myAudio" controls>
+  <source src="1.mp3">
+  Your browser does not support the audio element.
+</audio>
+
+<p>Click the buttons to get or set the volume of the audio player.</p>
+
+<button onclick="getVolume()" type="button">What is the volume?</button>
+
+
+<script>
+var x = document.getElementById("myAudio");
+
+function getVolume() { 
+  alert(x.volume);
+
+</script> 
+
+</body> 
+</html>
